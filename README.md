@@ -7,7 +7,7 @@
 <h1 align="center">Sylius Standard Edition</h1>
 
 <p align="center">This is Sylius Standard Edition repository for starting new projects.</p>
-
+ 
 About
 -----
 
