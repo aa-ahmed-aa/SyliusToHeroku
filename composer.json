@@ -87,9 +87,7 @@
     "prefer-stable": true,
     "scripts": {
         "compile": [
-            "@php bin/console sylius:install --no-interaction",
-            "@yarn install",
-            "@yarn build"
+            "@php bin/console sylius:install --no-interaction"
         ],
         "post-create-project-cmd": [
             "@php bin/console sylius:inform-about-gus --ansi",

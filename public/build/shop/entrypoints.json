@@ -1,0 +1,12 @@
+{
+  "entrypoints": {
+    "shop-entry": {
+      "css": [
+        "/build/shop/shop-entry.945bbc90.css"
+      ],
+      "js": [
+        "/build/shop/shop-entry.d49d6bc2.js"
+      ]
+    }
+  }
+}

@@ -48,7 +48,8 @@
     "gulp": "gulp build",
     "lint": "yarn lint:js",
     "lint:js": "eslint gulpfile.babel.js",
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "start": "yarn install && yarn build --force"
   },
   "repository": {
     "type": "git",
