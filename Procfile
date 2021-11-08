@@ -1,1 +1,1 @@
-web: bin/start-nginx bundle exec unicorn -c config/unicorn.rb
+web: heroku-php-nginx -C nginx_app.conf public/
