@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77846433e55444b5d82247439a9956b7",
+    "content-hash": "36803d80657864fad1583176fd9ee319",
     "packages": [
         {
             "name": "alcohol/iso4217",
@@ -1877,16 +1877,16 @@
         },
         {
             "name": "doctrine/sql-formatter",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/sql-formatter.git",
-                "reference": "56070bebac6e77230ed7d306ad13528e60732871"
+                "reference": "20c39c2de286a9d3262cc8ed282a4ae60e265894"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/sql-formatter/zipball/56070bebac6e77230ed7d306ad13528e60732871",
-                "reference": "56070bebac6e77230ed7d306ad13528e60732871",
+                "url": "https://api.github.com/repos/doctrine/sql-formatter/zipball/20c39c2de286a9d3262cc8ed282a4ae60e265894",
+                "reference": "20c39c2de286a9d3262cc8ed282a4ae60e265894",
                 "shasum": ""
             },
             "require": {
@@ -1899,11 +1899,6 @@
                 "bin/sql-formatter"
             ],
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Doctrine\\SqlFormatter\\": "src"
@@ -1928,9 +1923,9 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/sql-formatter/issues",
-                "source": "https://github.com/doctrine/sql-formatter/tree/1.1.x"
+                "source": "https://github.com/doctrine/sql-formatter/tree/1.1.2"
             },
-            "time": "2020-07-30T16:57:33+00:00"
+            "time": "2021-11-05T11:11:14+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -2210,16 +2205,16 @@
         },
         {
             "name": "friendsofsymfony/rest-bundle",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "9e8e14f88179d0a9fba6d1d803fe58cd1b3c2f5f"
+                "reference": "cb75a41227ed5a9028fa3028c8225dda5c7b3086"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/9e8e14f88179d0a9fba6d1d803fe58cd1b3c2f5f",
-                "reference": "9e8e14f88179d0a9fba6d1d803fe58cd1b3c2f5f",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/cb75a41227ed5a9028fa3028c8225dda5c7b3086",
+                "reference": "cb75a41227ed5a9028fa3028c8225dda5c7b3086",
                 "shasum": ""
             },
             "require": {
@@ -2255,7 +2250,7 @@
                 "symfony/expression-language": "^4.4|^5.0",
                 "symfony/form": "^4.4|^5.0",
                 "symfony/mime": "^4.4|^5.0",
-                "symfony/phpunit-bridge": "^5.2",
+                "symfony/phpunit-bridge": "^5.3.10",
                 "symfony/security-bundle": "^4.4|^5.0",
                 "symfony/serializer": "^4.4|^5.0",
                 "symfony/twig-bundle": "^4.4|^5.0",
@@ -2309,9 +2304,9 @@
             ],
             "support": {
                 "issues": "https://github.com/FriendsOfSymfony/FOSRestBundle/issues",
-                "source": "https://github.com/FriendsOfSymfony/FOSRestBundle/tree/3.1.0"
+                "source": "https://github.com/FriendsOfSymfony/FOSRestBundle/tree/3.1.1"
             },
-            "time": "2021-10-15T17:04:25+00:00"
+            "time": "2021-11-08T13:02:04+00:00"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -6189,16 +6184,16 @@
         },
         {
             "name": "sonata-project/doctrine-extensions",
-            "version": "1.14.0",
+            "version": "1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/sonata-doctrine-extensions.git",
-                "reference": "d54075e953c07b6b5ce05bc2770fdcfe62fc4ba5"
+                "reference": "2967d6e7558b9f47c9dd291f8061302c35d36b43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/sonata-doctrine-extensions/zipball/d54075e953c07b6b5ce05bc2770fdcfe62fc4ba5",
-                "reference": "d54075e953c07b6b5ce05bc2770fdcfe62fc4ba5",
+                "url": "https://api.github.com/repos/sonata-project/sonata-doctrine-extensions/zipball/2967d6e7558b9f47c9dd291f8061302c35d36b43",
+                "reference": "2967d6e7558b9f47c9dd291f8061302c35d36b43",
                 "shasum": ""
             },
             "require": {
@@ -6221,7 +6216,12 @@
                 "jackalope/jackalope-doctrine-dbal": "^1.0",
                 "matthiasnoback/symfony-config-test": "^4.2",
                 "matthiasnoback/symfony-dependency-injection-test": "^4.0",
+                "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^0.12.54",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "phpstan/phpstan-strict-rules": "^0.12.10",
+                "phpunit/phpunit": "^9.5",
+                "psalm/plugin-phpunit": "^0.16",
                 "symfony/dependency-injection": "^4.4 || ^5.1",
                 "symfony/expression-language": "^4.4 || ^5.1",
                 "symfony/framework-bundle": "^4.4 || ^5.1",
@@ -6269,7 +6269,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sonata-project/sonata-doctrine-extensions/issues",
-                "source": "https://github.com/sonata-project/sonata-doctrine-extensions/tree/1.14.0"
+                "source": "https://github.com/sonata-project/sonata-doctrine-extensions/tree/1.15.0"
             },
             "funding": [
                 {
@@ -6289,7 +6289,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-10-05T15:19:11+00:00"
+            "time": "2021-11-06T15:00:56+00:00"
         },
         {
             "name": "sonata-project/form-extensions",
@@ -18036,7 +18036,8 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4 || ^8.0"
+        "php": "^7.4 || ^8.0",
+        "ext-intl": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"
