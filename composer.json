@@ -87,7 +87,7 @@
     "prefer-stable": true,
     "scripts": {
         "compile": [
-            "@php bin/console sylius:install --no-interaction"
+            "@php bin/console sylius:install --no-interaction --fixture-suite=default"
         ],
         "post-create-project-cmd": [
             "@php bin/console sylius:inform-about-gus --ansi",
